@@ -6,11 +6,9 @@ function Header() {
     <div>
       <nav className="navbar bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            <Link to={"/"}>
-              <h3>Home</h3>
-            </Link>
-          </a>
+          <Link to={"/"} className="navbar-brand">
+            <h3>Home</h3>
+          </Link>
         </div>
       </nav>
     </div>

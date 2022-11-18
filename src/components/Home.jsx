@@ -7,7 +7,7 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div class="cards">
+    <div className="cards">
       <Link to={"/beers"}>
         <div className="card " style={{ width: 400 }}>
           <img src={imgBeers} alt="beers" />
@@ -20,7 +20,7 @@ function Home() {
               longer.
             </p>
             <p className="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Last updated 3 mins ago</small>
             </p>
           </div>
         </div>
@@ -36,7 +36,7 @@ function Home() {
               longer.
             </p>
             <p className="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Last updated 3 mins ago</small>
             </p>
           </div>
         </div>{" "}
@@ -52,7 +52,7 @@ function Home() {
               longer.
             </p>
             <p className="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Last updated 3 mins ago</small>
             </p>
           </div>
         </div>{" "}
